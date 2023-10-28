@@ -1,42 +1,77 @@
-/* Basic Reset */
-* {
+/* Reset some styles */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, input, button {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body {
     font-family: Arial, sans-serif;
 }
 
-header {
-    padding: 20px;
-    background-color: black;
-    text-align: center;
+body {
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-#promo-section {
-    background-image: url('../img/colonial-background.png.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #008080;  /* Teal color */
+    margin-bottom: 0.5em;
 }
 
-.text-content {
-    max-width: 600px;
+/* Links */
+a {
+    color: #008080;  /* Teal color */
+    text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* Input and Form Elements */
+input[type="text"], input[type="email"], input[type="password"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"], button {
+    background-color: #008080;  /* Teal color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #006666;  /* Darker teal for hover effect */
+}
+
+/* Additional styles for form */
 form {
-    /* Styles for form go here */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 
-footer {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
+/* Lists */
+ul, ol {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+/* Other common elements and classes */
+.cta-button {
+    background-color: #008080;  /* Teal color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #006666;  /* Darker teal for hover effect */
 }
