@@ -1,0 +1,42 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+#promo-section {
+    background-image: url('path-to-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    max-width: 600px;
+}
+
+form {
+    /* Styles for form go here */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
