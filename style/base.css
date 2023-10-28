@@ -16,7 +16,7 @@ header {
 }
 
 #promo-section {
-    background-image: url('path-to-background-image.jpg');
+    background-image: url('../img/colonial-background.png.png');
     background-size: cover;
     background-position: center;
     color: white;
