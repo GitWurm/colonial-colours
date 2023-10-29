@@ -61,7 +61,7 @@ body {
     height: auto;
     position: fixed;
     left: -5%;
-    top: 30%;
+    top: 0;
     z-index: -1; 
   }
   /* Media Query for smaller screens */
@@ -148,7 +148,7 @@ footer {
 
 .testimonial {
     margin: 40px 0;
-    background-color: #ffffff; /* Set the individual testimonial background to white */
+    background-color:  rgba(255,255,255,0.6);
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
