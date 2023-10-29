@@ -6,6 +6,10 @@
     <title>Colonial Colours - Your Local Gold Coast Painter</title>
     <meta name="description" content="Colonial Colours is your trusted local painter in Gold Coast. We provide commercial and residential painting services.">
     <link rel="stylesheet" href="style/base.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
 <main>
@@ -28,17 +32,13 @@
       <li>Tailored solutions to meet your specific painting needs.</li>
       <li>Trusted by local residents and businesses for all their painting requirements.</li>
     </ul>
-  </section>
-
-  <section id="quote" class="card">
-    <h2>Get Your Painting Quotation Today!</h2>
-    <p>If you're searching for an affordable painting service that doesn't compromise on quality, look no further than Colonial Colours. Our residential and commercial painting experts are ready to provide you with a no-obligation quote.</p>
-    <a href="#contact" class="cta-button">Request a Quote</a>
-  </section>
+  </section>  
 
   <section id="contact" class="card">
+    <h2>Get Your Painting Quotation Today!</h2>
+    <p>If you're searching for an affordable painting service that doesn't compromise on quality, look no further than Colonial Colours. Our residential and commercial painting experts are ready to provide you with a no-obligation quote.</p>
     <!-- Contact form -->
-    <form action="#" method="post">
+    
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
@@ -51,12 +51,33 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" rows="4" required></textarea>
 
-        <button type="submit">Submit</button>
-    </form>
+        <input type="submit" value="Submit">
+    
   </section>
   
-  <section id="testimonials">
-    <!-- Customer testimonials -->
+  <section id="testimonials" class="card">
+    <h2>What Our Customers Say</h2>
+    
+    <div class="testimonial">
+        <blockquote class="quote">
+            "This is the best service I've ever used. The team went above and beyond to meet my needs!"
+        </blockquote>
+        <cite>- Jane Doe, Company ABC</cite>
+    </div>
+
+    <div class="testimonial">
+        <blockquote class="quote">
+            "Incredible results and fantastic support. I'm really impressed!"
+        </blockquote>
+        <cite>- John Smith, Startup XYZ</cite>
+    </div>
+
+    <div class="testimonial">
+        <blockquote class="quote">
+            "A truly outstanding experience from start to finish. I can't recommend them enough!"
+        </blockquote>
+        <cite>- Alice Brown, Freelancer</cite>
+    </div>
   </section>
 
   <section id="portfolio">
@@ -67,6 +88,17 @@
 
 <footer>
   <!-- Footer contents such as address, social links, and secondary navigation -->
+    <div class="social-links">
+        <a href="https://www.facebook.com/colonialcoloursgc" target="_blank" aria-label="Link to Facebook">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://www.instagram.com/colonialcoloursgc" target="_blank" aria-label="Link to Instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <!-- <a href="https://www.linkedin.com/in/YourProfileName" target="_blank" aria-label="Link to LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+        </a> -->
+    </div>
 </footer>
 
 <!-- Add JavaScript file link here -->
